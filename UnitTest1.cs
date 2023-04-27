@@ -23,7 +23,7 @@ namespace SeleniumCSharp
             fbEmailText.SendKeys("prabinbhagat@yahoo.in"); // sending value in the text email field
 
             IWebElement fbPassText = driver.FindElement(By.XPath(".//*[@id='pass']"));
-            fbPassText.SendKeys("Baba@123");
+            fbPassText.SendKeys("password");
                        
             IWebElement loginBtn = driver.FindElement(By.Name("login"));
             //loginBtn.Click();
